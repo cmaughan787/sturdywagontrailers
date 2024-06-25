@@ -54,3 +54,14 @@ nav a:hover {
   color: var(--nav-hover-link-color);
   background-color: var(--nav-hover-background-color);
 }
+
+footer{
+  background-color: #BA3A0B;
+  color: white;
+}
+
+.headerimg {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
