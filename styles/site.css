@@ -117,6 +117,18 @@ p {
 /* Item styling */
 .item {
   text-align: center;
+  box-shadow: 0 3px 6px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.item:hover {
+  box-shadow: 0 10px 16px 0 rgba(0,0,0,0.3);
+}
+
+/* Add some padding inside the card container */
+.smtext {
+  padding: 2px 16px;
 }
 
 /* Card styling */
