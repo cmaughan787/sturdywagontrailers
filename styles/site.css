@@ -30,27 +30,37 @@ nav {
   width: 100%;
   display: flex;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 nav a {
+  color: white; /* Header color set to white */
   padding: 1em;
   min-width: 120px;
   text-decoration: none;
+  transition: background-color 0.3s, box-shadow 0.3s; /* Smooth transition for hover effect */
 }
 
 nav a:link,
 nav a:visited {
-  color: var(--nav-link-color);
+  color: white; /* Ensure link and visited links are white */
 }
 
 nav a:hover {
-  color: var(--nav-hover-link-color);
-  background-color: var(--nav-hover-background-color);
+  color: white; /* Maintain white text color on hover */
+  background-color: rgba(0, 0, 0, 0.1); /* Small black highlight on hover */
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Add a subtle shadow effect */
 }
+
 
 /* Footer styling */
 footer {
   background-color: #BA3A0B;
+  color: white;
+}
+
+footer a {
   color: white;
 }
 
